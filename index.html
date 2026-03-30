@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Melodia é o app de música premium para quem quer descobrir artistas, ouvir com qualidade superior e transformar cada play em identidade.">
+    <meta name="theme-color" content="#05070d">
+    <title>Melodia | Música com identidade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div class="page-noise" aria-hidden="true"></div>
+
+    <header class="site-header" data-header>
+        <div class="container header-inner">
+            <a class="brand" href="#top" aria-label="Melodia, voltar ao topo">
+                <span class="brand-mark" aria-hidden="true"></span>
+                <span class="brand-copy">
+                    <strong>Melodia</strong>
+                    <small>premium music app</small>
+                </span>
+            </a>
+
+            <nav class="site-nav" id="primary-navigation" data-nav aria-label="Navegação principal">
+                <a href="#beneficios">Visão</a>
+                <a href="#funcionalidades">Funcionalidades</a>
+                <a href="#depoimentos">Comunidade</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+            <div class="header-cta">
+                <a class="text-link" href="#contato">Entrar na lista</a>
+                <button class="nav-toggle" type="button" data-nav-toggle aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-navigation">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="top">
+        <section class="section hero-section">
+            <div class="hero-glow hero-glow-a" aria-hidden="true"></div>
+            <div class="hero-glow hero-glow-b" aria-hidden="true"></div>
+
+            <div class="container hero-grid">
+                <div class="hero-copy" data-reveal>
+                    <p class="eyebrow">
+                        <span class="eyebrow-dot" aria-hidden="true"></span>
+                        Som para quem descobre antes
+                    </p>
+
+                    <h1>
+                        Descubra a trilha que
+                        <span>fala por você.</span>
+                    </h1>
+
+                    <p class="hero-lead">
+                        Melodia une curadoria viva, áudio lossless e descoberta de artistas em uma experiência criada
+                        para quem ouve com identidade.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#contato">
+                            Experimentar agora
+                            <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                        </a>
+                        <a class="button button-secondary" href="#funcionalidades">
+                            Ver experiencia
+                            <i class="fa-solid fa-play" aria-hidden="true"></i>
+                        </a>
+                    </div>
+
+                    <div class="hero-proofs">
+                        <article class="proof-card">
+                            <strong>92M</strong>
+                            <span>faixas com qualidade hi-fi e espacial</span>
+                        </article>
+                        <article class="proof-card">
+                            <strong>+3.4x</strong>
+                            <span>mais descobertas semanais por usuário ativo</span>
+                        </article>
+                        <article class="proof-card">
+                            <strong>24/7</strong>
+                            <span>mixes que reagem ao seu horário, clima e energia</span>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="hero-visual" data-reveal>
+                    <div class="hero-stage" data-stage>
+                        <div class="stage-ring stage-ring-a" aria-hidden="true"></div>
+                        <div class="stage-ring stage-ring-b" aria-hidden="true"></div>
+
+                        <div class="floating-pill pill-live">
+                            <span class="pill-label">Listening now</span>
+                            <strong>Late Night Frequencies</strong>
+                        </div>
+
+                        <div class="floating-panel panel-wave">
+                            <span class="panel-kicker">Spatial Lossless</span>
+                            <div class="audio-wave" aria-hidden="true">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <p>Profundidade, contraste e presença dignos de palco.</p>
+                        </div>
+
+                        <div class="device-shell">
+                            <img
+                                src="assets/img/hero/melodia-device.svg"
+                                alt="Mockup do aplicativo Melodia mostrando playlist personalizada, player e descoberta de artistas."
+                                fetchpriority="high"
+                            >
+                        </div>
+
+                        <div class="floating-panel panel-community">
+                            <div class="avatar-stack">
+                                <img src="assets/img/user/user-iris.svg" alt="Avatar de Iris Valle" loading="lazy" decoding="async">
+                                <img src="assets/img/user/user-nico.svg" alt="Avatar de Nico Sato" loading="lazy" decoding="async">
+                                <img src="assets/img/user/user-luma.svg" alt="Avatar de Luma Costa" loading="lazy" decoding="async">
+                            </div>
+                            <div>
+                                <span class="panel-kicker">Curadoria viva</span>
+                                <strong>Artistas novos toda semana</strong>
+                            </div>
+                        </div>
+
+                        <div class="floating-pill pill-editorial">
+                            <i class="fa-solid fa-sparkles" aria-hidden="true"></i>
+                            <span>Playlists feitas para humor, cidade e hora.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-marquee" aria-hidden="true">
+                <div class="marquee-track">
+                    <span>Playlists personalizadas</span>
+                    <span>Descoberta de artistas</span>
+                    <span>Spatial lossless</span>
+                    <span>Curadoria por contexto</span>
+                    <span>Interface intuitiva</span>
+                    <span>Som com presenca</span>
+                    <span>Playlists personalizadas</span>
+                    <span>Descoberta de artistas</span>
+                    <span>Spatial lossless</span>
+                    <span>Curadoria por contexto</span>
+                    <span>Interface intuitiva</span>
+                    <span>Som com presenca</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-story" id="beneficios">
+            <div class="container">
+                <div class="section-heading split-heading" data-reveal>
+                    <div>
+                        <p class="eyebrow">
+                            <span class="eyebrow-dot" aria-hidden="true"></span>
+                            Apresentação
+                        </p>
+                        <h2>Mais do que tocar música: Melodia lê contexto, filtra ruído e entrega desejo.</h2>
+                    </div>
+                    <p class="section-copy">
+                        A experiência foi desenhada para parecer curada, não automatizada. Cada dobra mistura edição,
+                        tecnologia e um senso claro de presença de marca.
+                    </p>
+                </div>
+
+                <div class="benefit-layout">
+                    <article class="benefit-panel benefit-story-panel" data-reveal>
+                        <span class="panel-number">01</span>
+                        <h3>Curadoria que acompanha seu ritmo em vez de repetir algoritmo.</h3>
+                        <p>
+                            Melodia cruza humor, horário, hábito e textura sonora para montar sequências com início,
+                            tensão e respiro. Parece uma sessão preparada por alguém que realmente conhece seu gosto.
+                        </p>
+                        <div class="benefit-tags">
+                            <span>Noite, foco e deslocamento</span>
+                            <span>Descobertas sem ruído</span>
+                            <span>Flow contínuo entre gêneros</span>
+                        </div>
+                    </article>
+
+                    <article class="benefit-panel benefit-stat-panel" data-reveal>
+                        <span class="panel-number">02</span>
+                        <div class="metric-emphasis">
+                            <strong>87%</strong>
+                            <span>dos usuários encontram ao menos um artista novo já na primeira semana.</span>
+                        </div>
+                        <p>Um sistema de descoberta pensado para surpreender sem perder coerência.</p>
+                    </article>
+
+                    <article class="benefit-panel benefit-signal-panel" data-reveal>
+                        <span class="panel-number">03</span>
+                        <div class="signal-header">
+                            <strong>Qualidade que aparece no corpo</strong>
+                            <small>dynamic range / lossless / spatial</small>
+                        </div>
+                        <div class="signal-bars" aria-hidden="true">
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </div>
+                        <p>
+                            Mais definição de graves, mais ar nos agudos e uma sensação espacial que transforma fones
+                            em palco íntimo.
+                        </p>
+                    </article>
+
+                    <article class="benefit-panel benefit-mood-panel" data-reveal>
+                        <span class="panel-number">04</span>
+                        <div class="mood-copy">
+                            <h3>Uma interface que some para a música aparecer.</h3>
+                            <p>
+                                Gestos claros, foco nos detalhes certos e transições delicadas deixam a navegação mais
+                                intuitiva e mais desejável.
+                            </p>
+                        </div>
+                        <div class="mood-grid">
+                            <span>Morning drive</span>
+                            <span>Future soul</span>
+                            <span>Underground pop</span>
+                            <span>After party</span>
+                            <span>Clean UI</span>
+                            <span>Fresh radar</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-features" id="funcionalidades">
+            <div class="container">
+                <div class="section-heading split-heading" data-reveal>
+                    <div>
+                        <p class="eyebrow">
+                            <span class="eyebrow-dot" aria-hidden="true"></span>
+                            Funcionalidades
+                        </p>
+                        <h2>Recursos de produto real, apresentados com presença e precisão.</h2>
+                    </div>
+                    <p class="section-copy">
+                        Em vez de uma grade previsível, cada bloco dá foco ao que faz o Melodia parecer premium:
+                        personalização, descoberta, som e clareza de uso.
+                    </p>
+                </div>
+
+                <div class="feature-stack">
+                    <article class="feature-card" data-reveal>
+                        <div class="feature-copy">
+                            <span class="feature-index">01</span>
+                            <h3>Playlists personalizadas que evoluem com sua rotina.</h3>
+                            <p>
+                                Os mixes ajustam temperatura, intensidade e familiaridade conforme sua escuta muda ao
+                                longo do dia.
+                            </p>
+                            <ul class="feature-points">
+                                <li>Sequências montadas por contexto, não só por gênero.</li>
+                                <li>Playlists que amadurecem sem perder sua assinatura.</li>
+                                <li>Recomendações com equilíbrio entre conforto e novidade.</li>
+                            </ul>
+                        </div>
+
+                        <div class="feature-visual feature-playlists" aria-hidden="true">
+                            <div class="visual-topline">
+                                <span>Daily set</span>
+                                <strong>For your 19:30</strong>
+                            </div>
+                            <div class="mini-track is-active">
+                                <div class="cover cover-coral"></div>
+                                <div class="track-meta">
+                                    <strong>Blue Hour Motion</strong>
+                                    <span>melodic house • 32 min</span>
+                                </div>
+                                <div class="track-score">98%</div>
+                            </div>
+                            <div class="mini-track">
+                                <div class="cover cover-mint"></div>
+                                <div class="track-meta">
+                                    <strong>Soft Voltage</strong>
+                                    <span>alt pop • transição suave</span>
+                                </div>
+                                <div class="track-score">91%</div>
+                            </div>
+                            <div class="mini-track">
+                                <div class="cover cover-sky"></div>
+                                <div class="track-meta">
+                                    <strong>Midnight Transfer</strong>
+                                    <span>future soul • descoberta</span>
+                                </div>
+                                <div class="track-score">86%</div>
+                            </div>
+                            <div class="feature-footer-chip">Mood shift em 12 minutos</div>
+                        </div>
+                    </article>
+
+                    <article class="feature-card" data-reveal>
+                        <div class="feature-copy">
+                            <span class="feature-index">02</span>
+                            <h3>Descoberta de artistas com cara de cena, não de feed infinito.</h3>
+                            <p>
+                                O radar combina proximidade estética, contexto e timing cultural para apresentar nomes
+                                novos sem parecer aleatório.
+                            </p>
+                            <ul class="feature-points">
+                                <li>Radar semanal de artistas emergentes.</li>
+                                <li>Conexões entre referências, moods e cidades.</li>
+                                <li>Curadoria que valoriza repertório e surpresa.</li>
+                            </ul>
+                        </div>
+
+                        <div class="feature-visual feature-discovery" aria-hidden="true">
+                            <div class="radar-grid">
+                                <div class="radar-core">
+                                    <span>Radar</span>
+                                    <strong>Rising artists</strong>
+                                </div>
+                                <div class="artist-node node-a">Lina Vale</div>
+                                <div class="artist-node node-b">Noah Rey</div>
+                                <div class="artist-node node-c">Morae</div>
+                                <div class="artist-node node-d">Ivo June</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="feature-card" data-reveal>
+                        <div class="feature-copy">
+                            <span class="feature-index">03</span>
+                            <h3>Qualidade sonora que faz cada detalhe ocupar espaço.</h3>
+                            <p>
+                                Da textura dos vocais aos transientes mais delicados, o player foi pensado para quem
+                                percebe profundidade e resposta.
+                            </p>
+                            <ul class="feature-points">
+                                <li>Streaming lossless com sensação de estúdio.</li>
+                                <li>Spatial audio para fones e caixas compatíveis.</li>
+                                <li>Controles claros para ouvir com mais intenção.</li>
+                            </ul>
+                        </div>
+
+                        <div class="feature-visual feature-sound" aria-hidden="true">
+                            <div class="sound-board">
+                                <div class="sound-meter">
+                                    <span>24-bit / 96 kHz</span>
+                                    <strong>Spatial depth enabled</strong>
+                                </div>
+                                <div class="eq-bars">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="sound-labels">
+                                    <span>Bass</span>
+                                    <span>Body</span>
+                                    <span>Air</span>
+                                    <span>Depth</span>
+                                </div>
+                                <div class="sound-badge">Lossless Air</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="feature-card" data-reveal>
+                        <div class="feature-copy">
+                            <span class="feature-index">04</span>
+                            <h3>Interface intuitiva para o usuário pensar na música, não no caminho.</h3>
+                            <p>
+                                A arquitetura visual prioriza leitura, gesto e foco. Tudo parece mais leve, rápido e
+                                óbvio sem se tornar banal.
+                            </p>
+                            <ul class="feature-points">
+                                <li>Busca clara por mood, artista ou atividade.</li>
+                                <li>Navegação de uma mão com feedback sutil.</li>
+                                <li>Camadas de interface que respiram e organizam.</li>
+                            </ul>
+                        </div>
+
+                        <div class="feature-visual feature-ui" aria-hidden="true">
+                            <div class="ui-preview">
+                                <div class="ui-window ui-window-main">
+                                    <div class="ui-search">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                        <span>Buscar artistas, moods e mixes</span>
+                                    </div>
+                                    <div class="ui-pill-row">
+                                        <span class="ui-pill is-highlight">Mix de foco</span>
+                                        <span class="ui-pill">Novo artista</span>
+                                        <span class="ui-pill">Spatial</span>
+                                    </div>
+                                    <div class="ui-card-line"></div>
+                                    <div class="ui-card-line short"></div>
+                                    <div class="ui-card-line"></div>
+                                    <div class="ui-nav">
+                                        <i class="fa-solid fa-house"></i>
+                                        <i class="fa-solid fa-wave-square"></i>
+                                        <i class="fa-solid fa-heart"></i>
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+                                </div>
+                                <div class="ui-window ui-window-side">
+                                    <span class="ui-side-label">Flow</span>
+                                    <strong>Clean movement</strong>
+                                    <div class="ui-side-bars">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-testimonials" id="depoimentos">
+            <div class="container">
+                <div class="section-heading split-heading" data-reveal>
+                    <div>
+                        <p class="eyebrow">
+                            <span class="eyebrow-dot" aria-hidden="true"></span>
+                            Depoimentos
+                        </p>
+                        <h2>Validação social com linguagem editorial e sensação de marca viva.</h2>
+                    </div>
+                    <p class="section-copy">
+                        Cada fala reforça o posicionamento do produto: descoberta com refinamento, clareza e desejo de
+                        uso recorrente.
+                    </p>
+                </div>
+
+                <div class="testimonial-layout">
+                    <article class="testimonial-featured" data-reveal>
+                        <span class="quote-mark" aria-hidden="true">
+                            <i class="fa-solid fa-quote-left"></i>
+                        </span>
+                        <p>
+                            Melodia não parece só acertar o que eu gosto. Parece entender quando eu quero conforto e
+                            quando eu quero ser surpreendida.
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="assets/img/user/user-iris.svg" alt="Avatar de Iris Valle" loading="lazy" decoding="async">
+                            <div>
+                                <strong>Iris Valle</strong>
+                                <span>Diretora criativa, São Paulo</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card" data-reveal>
+                        <p>
+                            A experiência é fluida de um jeito raro: tudo parece claro, premium e musical ao mesmo
+                            tempo.
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="assets/img/user/user-nico.svg" alt="Avatar de Nico Sato" loading="lazy" decoding="async">
+                            <div>
+                                <strong>Nico Sato</strong>
+                                <span>Produtor e DJ</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card" data-reveal>
+                        <p>
+                            Foi o primeiro app em meses que me apresentou artistas novos sem me empurrar uma estética
+                            genérica.
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="assets/img/user/user-luma.svg" alt="Avatar de Luma Costa" loading="lazy" decoding="async">
+                            <div>
+                                <strong>Luma Costa</strong>
+                                <span>Fotógrafa e music lover</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="testimonial-strip" data-reveal>
+                        <div>
+                            <strong>4.9/5</strong>
+                            <span>avaliação média no beta fechado</span>
+                        </div>
+                        <div>
+                            <strong>+18k</strong>
+                            <span>ouvintes na waitlist global</span>
+                        </div>
+                        <div>
+                            <strong>63 países</strong>
+                            <span>sessões ativas no lançamento privado</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-contact" id="contato">
+            <div class="container contact-grid">
+                <div class="contact-copy" data-reveal>
+                    <p class="eyebrow">
+                        <span class="eyebrow-dot" aria-hidden="true"></span>
+                        Contato
+                    </p>
+                    <h2>Entre na próxima onda do Melodia.</h2>
+                    <p class="section-copy">
+                        Se você quer acesso antecipado, parceria ou falar com o time, deixe seus dados. A resposta é
+                        humana, rápida e com o mesmo cuidado da interface.
+                    </p>
+
+                    <div class="contact-points">
+                        <article class="contact-point">
+                            <i class="fa-solid fa-headphones-simple" aria-hidden="true"></i>
+                            <div>
+                                <strong>Acesso antecipado</strong>
+                                <span>Receba convites para o beta e playlists exclusivas.</span>
+                            </div>
+                        </article>
+                        <article class="contact-point">
+                            <i class="fa-solid fa-bolt" aria-hidden="true"></i>
+                            <div>
+                                <strong>Parcerias culturais</strong>
+                                <span>Ative collabs com artistas, labels e criadores.</span>
+                            </div>
+                        </article>
+                        <article class="contact-point">
+                            <i class="fa-solid fa-sliders" aria-hidden="true"></i>
+                            <div>
+                                <strong>Feedback qualificado</strong>
+                                <span>Ajude a moldar a experiência antes do lançamento.</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="contact-card" data-reveal>
+                    <form class="contact-form" data-form novalidate>
+                        <div class="form-row">
+                            <label class="field">
+                                <span>Nome</span>
+                                <input type="text" name="nome" placeholder="Seu nome" required>
+                            </label>
+                            <label class="field">
+                                <span>E-mail</span>
+                                <input type="email" name="email" placeholder="voce@exemplo.com" required>
+                            </label>
+                        </div>
+
+                        <label class="field">
+                            <span>Interesse</span>
+                            <select name="interesse" required>
+                                <option value="">Selecione uma opção</option>
+                                <option value="beta">Acesso antecipado ao beta</option>
+                                <option value="parceria">Parceria / collab</option>
+                                <option value="feedback">Quero enviar feedback</option>
+                            </select>
+                        </label>
+
+                        <label class="field">
+                            <span>Mensagem</span>
+                            <textarea name="mensagem" rows="5" placeholder="Conte como o Melodia pode entrar na sua rotina." required></textarea>
+                        </label>
+
+                        <button class="button button-primary button-block" type="submit">
+                            Quero fazer parte
+                            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                        </button>
+
+                        <p class="form-note">
+                            Ao enviar, você concorda com nossa política de privacidade e com o recebimento de novidades
+                            sobre o beta.
+                        </p>
+                        <p class="form-feedback" data-form-feedback aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a class="brand brand-footer" href="#top" aria-label="Melodia, voltar ao topo">
+                    <span class="brand-mark" aria-hidden="true"></span>
+                    <span class="brand-copy">
+                        <strong>Melodia</strong>
+                        <small>premium music app</small>
+                    </span>
+                </a>
+                <p>
+                    Melodia cria uma experiência musical premium para quem trata descoberta como identidade.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <span class="footer-label">Contato</span>
+                <a href="mailto:hello@melodia.app">hello@melodia.app</a>
+                <a href="tel:+551130300909">+55 11 3030-0909</a>
+            </div>
+
+            <div class="footer-column">
+                <span class="footer-label">Redes</span>
+                <a href="#" aria-label="Instagram do Melodia">Instagram</a>
+                <a href="#" aria-label="TikTok do Melodia">TikTok</a>
+                <a href="#" aria-label="Spotify do Melodia">Spotify</a>
+            </div>
+
+            <div class="footer-column">
+                <span class="footer-label">Informações</span>
+                <a href="#beneficios">Visão</a>
+                <a href="#contato">Fale com o time</a>
+                <a href="#privacy-note">Política de Privacidade</a>
+            </div>
+        </div>
+
+        <div class="container footer-base">
+            <span>&copy; <span data-year></span> Melodia. Todos os direitos reservados.</span>
+            <span id="privacy-note">Coletamos apenas os dados enviados pelo formulário para contato e convite ao beta.</span>
+        </div>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
